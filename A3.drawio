@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36" version="27.0.9">
   <diagram name="Page-1" id="Dk75OJJo-jpJx1r9mr-5">
-    <mxGraphModel>
+    <mxGraphModel dx="1310" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#FCFCFC)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#FEFEFE);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#010101);" vertex="1" parent="1">
+          <mxGeometry x="294" y="50" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Начало&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=light-dark(#000000,#010101);" vertex="1" parent="1">
+          <mxGeometry x="359" y="100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="FIu73RtjkFC-CdjOFkLj-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="360" as="sourcePoint" />
+            <mxPoint x="414" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-4" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 20px;&quot;&gt;Установить конфигурацию сети, параметры извлечения, размерность&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FBFBFB);strokeColor=light-dark(#000000,#000000);strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="294" y="420" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FIu73RtjkFC-CdjOFkLj-6" target="FIu73RtjkFC-CdjOFkLj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-6" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 20px;&quot;&gt;Извлечение признаков через MobileNetV2 (TensorFlow, PyTorch, Keras, модель, устройство)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FBFBFB);strokeColor=light-dark(#000000,#000000);strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="294" y="600" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.5" y="540" as="sourcePoint" />
+            <mxPoint x="413.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-8" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 24px;&quot;&gt;Получить вектор признаков MobileNetV2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FBFBFB);strokeColor=light-dark(#000000,#000000);strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="294" y="780" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-9" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.5" y="720" as="sourcePoint" />
+            <mxPoint x="413.5" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-10" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="403.5" y="900" as="sourcePoint" />
+            <mxPoint x="403.5" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-11" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(3, 3, 3));&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;Конец&lt;/span&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#FEFEFE);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#010101);" vertex="1" parent="1">
+          <mxGeometry x="294" y="960" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FIu73RtjkFC-CdjOFkLj-13" target="FIu73RtjkFC-CdjOFkLj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-13" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 20px;&quot;&gt;Получить предобработанное изображение&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FBFBFB);strokeColor=light-dark(#000000,#000000);strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="294" y="240" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FIu73RtjkFC-CdjOFkLj-14" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="180" as="sourcePoint" />
+            <mxPoint x="413" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="413" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
