@@ -19,8 +19,8 @@
             <mxPoint x="468" y="71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gAwpg_qgxeCtwhjVFKoI-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;sd&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="704" y="167" as="geometry" />
+        <mxCell id="H-TWd4v8hS0SCrO2Gkzh-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;div&gt;MCU&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="468.5" y="91" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
